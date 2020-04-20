@@ -67,4 +67,4 @@ const obj = new Traveler('Harish Lahane', 28, 'Maharashtra');
 console.log(obj.getGreetting());
 
 const other = new Traveler(undefined,undefined,'nowhere');
-console.log(other.getGreetting());
+console.log(other.getGreetting()); 
