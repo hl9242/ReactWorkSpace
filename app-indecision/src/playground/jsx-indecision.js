@@ -2,7 +2,7 @@
 // import ReactDOM from 'react-dom';
 console.log("App.js is running..");
 //babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
-//babel src/playground/counter-example-visibilitytoggle.js --out-file=public/scripts/app.js --presets=env,react --watch
+//babel src/playground/stateless-Functional-Component.js --out-file=public/scripts/app.js --presets=env,react --watch
 //JSX - JavaScript XML
 
 const app={
