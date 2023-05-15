@@ -19,6 +19,12 @@ class IndecisionApp extends React.Component {
       options : []
     };
   }
+  componentDidMount()  {
+    console.log("componentdidMaount!")
+  }
+  componentDidUpdate() {
+    console.log("componentDidUpdate! ");
+  }
   handleDeleteOptions() {
     this.setState(() => { 
       return {
@@ -160,4 +166,4 @@ class AddOption extends React.Component {
     }
 }
 
-ReactDOM.render(<IndecisionApp />,document.getElementById('app'));
+ReactDOM.render(<IndecisionApp />,document.getElementById('app '));
